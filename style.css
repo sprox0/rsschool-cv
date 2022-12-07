@@ -62,11 +62,26 @@ button {
 .carousel-first-item {
     border-radius: 2px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .carousel-first-item:hover {
     cursor: pointer;
     transform: scale(1.07);
+    transition: 0.3s ease-in-out;
+}
+
+.explink {
+    text-decoration: none;
+    color: #ff4000;
+    font-size: 19px;
+}
+
+.explink:hover {
+    cursor: pointer;
+    text-shadow: 5px 5px 10px #5285af;
+    color: #5285af;
+    font-size: 22px;
 }
 
 .footer {
