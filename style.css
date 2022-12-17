@@ -1,0 +1,310 @@
+@font-face {
+    font-family: 'Michroma';
+    src: url(/fonts/Michroma/Michroma-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat_Alternates';
+    src: url(/fonts/Montserrat_Alternates/);
+}
+
+body {
+    margin: 0 auto;
+}
+
+body, html, ul, ol, li, p, h1, h2, h3, h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+div,
+button {
+    box-sizing: border-box;
+}
+
+/*                      INTRO SECTION                   */
+
+.wrapper {
+    max-width: 1680px;
+}
+
+.content {
+    background-image: url(/picture/Alexandr.jpg);
+    margin: 0 auto; 
+}
+
+.cv-intro {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1440px;
+    justify-content: space-between;
+}
+
+.cv-content {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.cv-text {
+    align-items: center;
+    color: rgba(9, 9, 9, 0.421);
+    cursor: pointer;
+    display: flex;
+    font-family: 'Montserrat_Alternates', Arial, sans-serif;
+    justify-content: center;
+    border-radius: 20px;
+    border: 3px solid rgba(9, 9, 9, 0.421) ;
+    width: 100px;
+    height: 40px;
+}
+
+.intro-section {
+    align-items: center;
+    color: rgb(11, 11, 11);
+    font-family: 'Montserrat_Alternates', Arial, sans-serif;
+    height: 600px;
+    width: 1490px;
+    margin: 0 auto;
+}
+
+.intro-name {
+    padding-top: 170px;
+}
+
+.intro-text {
+    padding-top: 10px;
+}
+
+.my-name {
+    color: rgba(19, 19, 19, 0.823);
+    font-family: 'Montserrat_Alternates', Arial, sans-serif;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+.my-name-first {
+    color: rgba(18, 18, 18, 0.925);
+}
+
+.front-end {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Montserrat_Alternates', Arial, sans-serif;
+    width: 590px;
+    font-size: 18px;
+}
+
+.link-down {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.link-about {
+    text-decoration: none;
+    color: rgba(19, 19, 19, 0.685);
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Montserrat_Alternates', Arial, sans-serif;
+    transition: 0.8s;
+}
+
+.link-about:hover {
+    cursor: pointer;
+    color: rgba(157, 0, 0, 0.864);
+}
+
+/*              INTRO SECTION END               */
+
+
+/*                  INFO SECTION                */
+
+.content-title {
+    height: 140px;
+    width: 440px;
+    margin-left: 120px;
+    position: relative;
+    border: 1px solid rgba(41, 41, 41, 0.4);
+    box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.3);
+    transition: 1.2s;
+}
+
+.content-title:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: rgba(210, 210, 210, 0.872);
+}
+
+.education-case, .summary-case, .english-case, .skills-case {
+    display: flex;
+    color: rgba(57, 57, 57, 0.925);
+    justify-content: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: 'Montserrat_Alternates', Arial, sans-serif;
+    padding-top: 15px;
+}
+
+.education-section {
+    height: 150px;
+    width: 370px;
+    left: 950px;
+    position: absolute;
+    
+    border: 1px solid rgba(41, 41, 41, 0.4);
+    box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.3);
+    transition: 1.2s;
+}
+
+.education-section:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: rgba(200, 200, 200, 0.872);
+}
+
+html  {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat_Alternates', Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(18, 18, 18, 0.925);
+}
+
+.explink {
+    text-decoration: none;
+    color: rgba(198, 0, 0, 0.92);
+}
+
+.information-section {
+    height: 150px;
+    width: 550px;
+    top: 350px;
+    left: 200px;
+    position: absolute;
+    border: 1px solid rgba(41, 41, 41, 0.4);
+    box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.3);
+    transition: 1.2s;
+}
+
+.information-section:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: rgba(203, 196, 196, 0.872);
+}
+
+.info-wrapper {
+    background-image: url(/picture/black-texture-heroscreen-548542.jpg);
+    height: 700px;
+}
+
+.info-section {
+    padding-top: 100px;
+    position: relative;
+}
+
+.skills-section {
+    cursor: pointer;
+    height: 150px;
+    width: 400px;
+    margin-top: 250px;
+    margin-left: 1100px;
+    position: absolute;
+    border: 1px solid rgba(41, 41, 41, 0.4);
+    box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.3);
+    transition: 1.2s;
+}
+
+.skills-section:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: rgba(203, 196, 196, 0.872);
+}
+
+
+.skills { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    font-size: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.online-zoo, .nft-page {
+    font-family: 'Montserrat_Alternates', Arial, sans-serif;
+    text-decoration: none;
+    color: rgba(220, 0, 0, 0.72);
+}
+
+/*                  footer section              */
+
+.footer-wrapper {
+    background-color: rgba(18, 18, 18, 0.968);
+}
+
+.footer-section {
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.contacts-list {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.contacts-link {
+    text-decoration: none;
+    color: rgb(171, 171, 171);
+}
+
+.list-item-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(69, 69, 69, 0.678);
+    transition: 1.1s;
+}
+
+
+.list-item-wrapper:hover {
+    cursor: pointer;
+    background-color: rgba(219, 0, 0, 0.963);
+    transform: scale(1.3);
+}
+
+.logo-pic {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.date {
+   display: flex; 
+   justify-content: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.footer {
+    font-size: 40px;
+    color: rgba(184, 5, 5, 0.963);
+}
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
