@@ -1,12 +1,4 @@
-@font-face {
-    font-family: 'Michroma';
-    src: url(../fonts/Michroma/Michroma-Regular.ttf);
-}
 
-@font-face {
-    font-family: 'Montserrat_Alternates';
-    src: url(../fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf);
-}
 
 body {
     margin: 0 auto;
@@ -51,7 +43,7 @@ button {
     color: rgba(9, 9, 9, 0.421);
     cursor: pointer;
     display: flex;
-    font-family: 'Michroma', 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     justify-content: center;
     border-radius: 20px;
     border: 3px solid rgba(9, 9, 9, 0.421) ;
@@ -62,7 +54,7 @@ button {
 .intro-section {
     align-items: center;
     color: rgb(11, 11, 11);
-    font-family: 'Michroma', 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     height: 600px;
     width: 1490px;
     margin: 0 auto;
@@ -78,7 +70,7 @@ button {
 
 .my-name {
     color: rgba(19, 19, 19, 0.823);
-    font-family: 'Michroma', 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 70px;
     letter-spacing: 2px;
 }
@@ -90,7 +82,7 @@ button {
 .front-end {
     display: flex;
     justify-content: flex-end;
-    font-family: 'Michroma', 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     width: 590px;
     font-size: 18px;
 }
@@ -107,7 +99,7 @@ button {
     color: rgba(19, 19, 19, 0.685);
     cursor: pointer;
     font-size: 20px;
-    font-family: 'Michroma', 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     transition: 0.8s;
 }
 
@@ -143,7 +135,7 @@ button {
     justify-content: center;
     font-size: 40px;
     letter-spacing: 3px;
-    font-family: 'Michroma', 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     padding-top: 15px;
 }
 
@@ -172,7 +164,7 @@ html  {
 .about-text {
     display: flex;
     justify-content: center;
-    font-family: 'Michroma', 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 20px;
     color: rgba(18, 18, 18, 0.925);
 }
@@ -236,7 +228,7 @@ html  {
 }
 
 .online-zoo, .nft-page {
-    font-family: 'Michroma', 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     text-decoration: none;
     color: rgba(220, 0, 0, 0.72);
 }
@@ -263,7 +255,7 @@ html  {
 .contacts-link {
     text-decoration: none;
     color: rgb(171, 171, 171);
-    font-family: 'Michroma', 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 .list-item-wrapper {
