@@ -29,7 +29,7 @@ button {
 }
 
 .content {
-    background-image: url(../RSchool-CV/picture/Alexandr.jpg);
+    background-image: url(./picture/Alexandr.jpg);
     margin: 0 auto; 
 }
 
@@ -200,7 +200,7 @@ html  {
 }
 
 .info-wrapper {
-    background-image: url(../RSchool-CV/picture/black-texture-heroscreen-548542.jpg);
+    background-image: url(./picture/black-texture-heroscreen-548542.jpg);
     height: 700px;
     position: relative;
     padding-top: 70px;
