@@ -114,24 +114,51 @@ button {
 /*                  INFO SECTION                */
 
 .content-title {
-    width: 600px;
+    width: 650px;
     margin-left: 120px;
     position: relative;
     border: 1px solid rgba(41, 41, 41, 0.4);
     box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.3);
     transition: 1.2s;
     padding-bottom: 10px;
+    
 }
 
 .content-title:hover {
     cursor: pointer;
     transform: scale(1.2);
-    background-color: rgba(210, 210, 210, 0.872);
+    background-color: rgba(154, 1, 1, 0.872);
 }
 
-.education-case, .summary-case, .english-case, .skills-case {
+.content-title:hover .about-text {
+    color: #fff;
+}
+
+.code-section {
+    height: 350px;
+    width:670px;
+    padding-left: 5px;
+    left: 300px;
+    top: 700px;
+    position: absolute;
+    border: 1px solid rgba(80, 80, 80, 0.4);
+    box-shadow: 5px 5px 5px rgba(90, 90, 90, 0.3);
+    transition: 1.2s;
+}
+
+.code-section:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: rgba(154, 1, 1, 0.962);
+}
+
+.code-section:hover .example-js {
+    color: #fff;
+}
+
+.name-case {
     display: flex;
-    color: rgba(57, 57, 57, 0.925);
+    color: rgba(250, 250, 250, 0.925);
     justify-content: center;
     font-size: 40px;
     letter-spacing: 3px;
@@ -139,12 +166,15 @@ button {
     padding-top: 15px;
 }
 
+.example-js {
+    color: rgba(18, 18, 18, 0.925);
+}
+
 .education-section {
-    height: 150px;
-    width: 370px;
+    height: 190px;
+    width: 500px;
     left: 950px;
     position: absolute;
-    
     border: 1px solid rgba(41, 41, 41, 0.4);
     box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.3);
     transition: 1.2s;
@@ -153,7 +183,11 @@ button {
 .education-section:hover {
     cursor: pointer;
     transform: scale(1.2);
-    background-color: rgba(200, 200, 200, 0.872);
+    background-color: rgba(154, 1, 1, 0.872);
+}
+
+.education-section:hover .about-text {
+    color: #fff;
 }
 
 html  {
@@ -177,7 +211,7 @@ html  {
 .information-section {
     height: 150px;
     width: 550px;
-    top: 350px;
+    top: 420px;
     left: 200px;
     position: absolute;
     border: 1px solid rgba(41, 41, 41, 0.4);
@@ -188,21 +222,42 @@ html  {
 .information-section:hover {
     cursor: pointer;
     transform: scale(1.2);
-    background-color: rgba(203, 196, 196, 0.872);
+    background-color: rgba(198, 0, 0, 0.92);
+}
+
+.information-section:hover .about-text {
+    color: #fff;
 }
 
 .info-wrapper {
     background-image: url(../picture/black-texture-heroscreen-548542.jpg);
-    height: 700px;
+    height: 1150px;
     position: relative;
     padding-top: 70px;
 }
+
+.skills-examples {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding-top: 5px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.education-section:hover .examples {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
 
 .skills-section {
     cursor: pointer;
     height: 150px;
     width: 400px;
-    margin-top: 250px;
+    margin-top: 350px;
     margin-left: 1100px;
     position: absolute;
     border: 1px solid rgba(41, 41, 41, 0.4);
@@ -213,7 +268,15 @@ html  {
 .skills-section:hover {
     cursor: pointer;
     transform: scale(1.2);
-    background-color: rgba(203, 196, 196, 0.872);
+    background-color: rgba(198, 0, 0, 0.92);
+}
+
+.skills-section:hover .nft-page:hover {
+    color: #fff;
+}
+
+.skills-section:hover .online-zoo:hover {
+    color: #fff;
 }
 
 
@@ -230,7 +293,7 @@ html  {
 .online-zoo, .nft-page {
     font-family: 'Arial', sans-serif;
     text-decoration: none;
-    color: rgba(220, 0, 0, 0.72);
+    color: rgba(34, 34, 34, 0.72);;
 }
 
 /*                  footer section              */
@@ -289,9 +352,10 @@ html  {
    padding-bottom: 20px;
 }
 
-.footer {
+.link-footer {
     font-size: 40px;
     color: rgba(184, 5, 5, 0.963);
+    text-decoration: none;
 }
 
 html {

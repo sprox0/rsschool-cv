@@ -9,7 +9,7 @@
 - #### Discord *sprox0*
 ---
 ## **SUMMARY**
-I've never been familiar to coding but I'm really interested in getting to know front-end development in order to improve the quality of my life. 
+I have decided to try Front-end Devolopment and I liked this a lot. Now I wnnna to grow in this field. 
 I had experience in professional sports and now I want to try something absolutely new. I'm determined, hardworking, eager to learn new things fast. I'm adaptable to changes, capable of working both in a team as well as on my own.
 
 ---
