@@ -9,59 +9,98 @@
         <title>CV</title>
     </head>
     <body>
-        <div class="wrapper">
-            <div class="content-wrapper">
-                <div class="content">
-                    <header class="cv-content">
-                        <div class="cv-intro">
-                            <div class="cv-text">
-                                <h1 class="cv">CV</h1>
-                            </div>
-                            <div class="link-info">
-                                <ul class="link-down">
-                                    <li class="link-scroll"><a href="#scroll-about" class="link-about">INFO</a></li>
-                                    <li class="link-scroll"><a href="#scroll-contact"  class="link-about">CONTACTS</a></li>
-                                </ul>
-                            </div>
+        <main>
+          <div class="wrapper">
+              <div class="content-wrapper">
+                  <div class="content">
+                      <header class="cv-content">
+                          <div class="cv-intro">
+                              <div class="cv-text">
+                                  <h1 class="cv">CV</h1>
+                              </div>
+                              <div class="link-info">
+                                  <ul class="link-down">
+                                      <li class="link-scroll"><a href="#scroll-about" class="link-about">INFO</a></li>
+                                      <li class="link-scroll"><a href="#scroll-contact"  class="link-about">CONTACTS</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </header>
+                      <div class="intro-section">
+                          <div class="intro-name">
+                              <div class="first-name">
+                                  <h2 class="my-name my-name-first">ALEXANDER</h2>
+                                  <h2 class="my-name">PROKHOREVICH</h2>
+                              </div>
+                              <div class="intro-text">
+                                  <p class="front-end">Front-End Devoloper</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="info-wrapper">
+                      <div class="content-title">
+                          <h3 class="name-case">ABOUT</h3>
+                          <a href="scroll-about" class="sroll-id"></a>
+                          <p class="about-text">I had experience in professional sports and now I want to try something absolutely new. I have decided to try Front-end Devolopment and I liked this a lot. Now I wnnna to grow in this field. I'm determined, hardworking, eager to learn new things fast. </p>
+                      </div>
+                      <div class="education-section">
+                          <h3 class="name-case">SKILLS</h3>
+                          <p class="about-text">I have a little experience in coding HTML, CSS and JS. My English level is between A2 - B1 but i keep on learning english for improve my skill, because i love this language so much. I know that it is essential.</p>
+                          <ul class="skills-examples">
+                            <li class="examples">HTML</li>
+                            <li class="examples">CSS</li>
+                            <li class="examples">JS</li>
+                          </ul>
+                      </div>
+                      <div class="information-section">
+                          <h3 class="name-case">EDUCATION</h3>
+                          <a href="" id="scroll-about"></a>
+                          <p class="about-text">I finished BSUPE in 2020. I've watched and keep watching many educational videos, reading a big amount of information about Front-End Development and practicing. </p>
+                      </div>
+                      <div class="skills-section">
+                          <h3 class="name-case">WORKS</h3>
+                          <div class="skills">
+                              <a href="https://radiant-strudel-4a8753.netlify.app" class="online-zoo">Online-Zoo</a>
+                              <a href="https://nft-exempl-sprox0.netlify.app" class="nft-page">NFT-page</a>
+                          </div>
+                      </div>
+                      <div class="code-section">
+                        <h3 class="name-case">CODE-EXAMPLE</h3>
+                        <div class="code-js">
+                            <code class="example-js">
+                              const dino = document.getElementById("dino");
+                              const cactus = document.getElementById("cactus");
+
+                              document.addEventListener("keydown", function(event) {
+                                  jump(); 
+                              });<br>
+                                
+
+                              function jump () {
+                                  if (dino.classList != "jump") {
+                                      dino.classList.add("jump")
+                                  }
+                                  setTimeout( function() {
+                                      dino.classList.remove("jump")
+                                  }, 300)
+                              }<br>
+
+                              let isAlive = setInterval (function() {
+                                  let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
+                                  let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
+
+                                  if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
+                                      alert("!!!GAME OVER!!!")
+                                  }
+                              },10)
+                            </code>
                         </div>
-                    </header>
-                    <div class="intro-section">
-                        <div class="intro-name">
-                            <div class="first-name">
-                                <h2 class="my-name my-name-first">ALEXANDER</h2>
-                                <h2 class="my-name">PROKHOREVICH</h2>
-                            </div>
-                            <div class="intro-text">
-                                <p class="front-end">Front-End Devoloper</p>
-                            </div>
-                        </div>
                     </div>
-                </div>
-                <div class="info-wrapper">
-                    <div class="content-title">
-                        <h3 class="summary-case">ABOUT</h3>
-                        <a href="scroll-about" class="sroll-id"></a>
-                        <p class="about-text">I had experience in professional sports and now I want to try something absolutely new. I'm really interested in getting to know front-end development in order to improve the quality of my life. I'm determined, hardworking, eager to learn new things fast. </p>
-                    </div>
-                    <div class="education-section">
-                        <h3 class="education-case">SKILLS</h3>
-                        <p class="about-text">I have a little experience in coding HTML, CSS and JS.</p>
-                    </div>
-                    <div class="information-section">
-                        <h3 class="english-case">ENGLISH</h3>
-                        <a href="" id="scroll-about"></a>
-                        <p class="about-text">My English level is between A2 - B1 but i keep on learning english for improve my skill, because i love this language so much. I know that it is essential.</p>
-                    </div>
-                    <div class="skills-section">
-                        <h3 class="skills-case">EXAMPLES</h3>
-                        <div class="skills">
-                            <a href="https://radiant-strudel-4a8753.netlify.app" class="online-zoo">Online-Zoo</a>
-                            <a href="https://nft-exempl-sprox0.netlify.app" class="nft-page">NFT-page</a>
-                        </div>
-                    </div>       
-                </div>
-            </div> 
-        </div>
+                  </div>
+              </div>
+          </div>
+        </main>
         <footer>
             <div class="footer-wrapper">
                 <div class="footer-section">
@@ -272,7 +311,7 @@
                     </a>
                 </div>
                 <div class="date">
-                    <h3 class="footer">December 2022</h3>
+                    <h3 class="footer"><a href="#" class="link-footer"> December 2022</a></h3>
                 </div>
             </div>
         </footer>
